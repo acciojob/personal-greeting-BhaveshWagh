@@ -7,8 +7,9 @@ const App = () => {
   return (
     <div>
       {/* Do not remove the main div */}
+      <p> Enter your name:</p>
       <label>
-        Enter your name:{" "}
+        {" "}
         <input
           type="text"
           value={name}
